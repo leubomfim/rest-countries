@@ -1,0 +1,242 @@
+body {
+    color: #111517;
+    background-color: #FAFAFA;
+}
+
+
+.dark__body {
+    background-color: #202c37;
+    color: white;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    -webkit-box-shadow:0 0 3px 3px rgb(0 0 0 / 3%);
+    -moz-box-shadow:0 0 3px 3px rgb(0 0 0 / 3%);
+    box-shadow: 0 0 3px 3px rgb(0 0 0 / 3%);
+}
+
+.dark__header {
+    background-color: #2B3945;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.theme {
+    display: flex;
+    font-weight: 600;
+    font-size: 1.1em;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.header__theme-light {
+    display: none;
+    color:white;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.input__search-countries {
+    width: 400px;
+    outline: none;
+    box-shadow: 0 0 5px 1px hsl(0, 4%, 83%);
+    border-radius: 5px;
+    color: #858585;
+    padding: 20px 15px 20px 50px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.dark__input {
+    background-color: #2B3945;
+    color: white;
+    box-shadow: none;
+}
+
+.form-control {
+    position: relative;
+}
+
+.form-control svg {
+    position: absolute;
+    left: 20px;
+    top: 22px;
+}
+
+.details {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px hsl(0, 4%, 83%);
+    cursor: pointer;
+    position: relative;
+}
+
+ summary {
+    align-items: baseline;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    font-size: .9rem;
+    font-weight: 400;
+    gap: 20px;
+}
+
+summary:after {
+    border-bottom: 1px solid;
+    border-bottom-left-radius: 2px;
+    border-left: 1px solid;
+    content: "";
+    display: inline-block;
+    height: 7px;
+    -webkit-transform: rotate(-45deg) translate(50%);
+    transform: rotate(-45deg) translate(50%);
+    transition: all .3s ease-in-out;
+    width: 7px;
+}
+
+.dark__details {
+    background-color: #2B3945;
+    box-shadow: none;
+}
+
+.region__list {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 5;
+    width: 100%;
+    box-shadow: 0 0 5px 1px hsl(0, 4%, 83%);
+    padding: 15px 20px;
+    left: 0;
+    top: calc(100% + 0.5rem);;
+}
+
+.dark__region-list {
+    box-shadow: none;
+    background-color: #2B3945;
+}
+
+.region__list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.region__list li {
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.countries {
+    display: grid;
+    visibility: hidden;
+    grid-template-columns: repeat(4, 269px);
+    gap: 55px;
+    row-gap: 200px;
+    width: 100%;
+    margin-top: 200px;
+}  
+
+.country__information {
+    width: 269px;
+    z-index: 3;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 5px 1px hsl(0, 4%, 83%);
+}
+
+.dark__country-information {
+    background-color: #2B3945;
+    box-shadow: none;
+}
+
+.country__information img {
+    width: 100%;
+    height: 160px;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: -160px;
+}
+
+.country__name {
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.country__information span {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.dark__span {
+    color: white;
+}
+
+@media screen and (max-width:1200px) {
+    .countries {
+        grid-template-columns: repeat(3, 1fr);
+    }  
+}
+
+@media screen and (max-width:900px) {
+    .countries {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }  
+}
+
+@media screen and (max-width:600px) {
+    header {
+        padding: 20px 0;
+    }
+    
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .form {
+        display: flex;
+        align-items: flex-start;
+        gap: 35px;
+        flex-direction: column;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .input__search-countries {
+        width: 100%;
+    }
+
+    .countries {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }  
+}
