@@ -3,8 +3,6 @@ const input = document.querySelector('#search__countries')
 let countriesArray
 
 window.addEventListener('load', () => {
-    document.querySelector('.countries').style.visibility = 'visible'
-    document.querySelector('.container-loading').style.display = 'none'
     consumeApi()
 })
 
@@ -37,6 +35,8 @@ function consumeApi() {
 }
 
 function createElements(countries) {
+    document.querySelector('.countries').style.visibility = 'visible'
+    document.querySelector('.container-loading').style.display = 'none'
     countries.forEach(el => {
         const countryInformation = document.createElement('div')
         const countryName = document.createElement('p')
