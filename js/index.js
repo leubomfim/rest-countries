@@ -1,6 +1,5 @@
 const li = document.querySelectorAll('li')
 const input = document.querySelector('#search__countries')
-let countriesArray
 
 window.addEventListener('load', () => {
     consumeApi()
@@ -74,15 +73,8 @@ function createFilteringElements(e)  {
     document.querySelector('.countries').innerHTML = ''
     const equal = e.target.getAttribute('value') === 'all'
     if(equal) {
-        document.querySelector('.countries').style.visibility = 'hidden'
-        document.querySelector('.container-loading').style.display = 'flex'
-        document.querySelector('.countries').style.visibility = 'visible'
-        document.querySelector('.container-loading').style.display = 'none'
         consumeApi()
     } else {
-        document.querySelector('.container-loading').style.display = 'flex'
-        document.querySelector('.countries').style.visibility = 'visible'
-        document.querySelector('.container-loading').style.display = 'none'
         fetch(`https://restcountries.com/v3.1/region/${e.target.getAttribute('value')}`)
         .then(response => response.json())
         .then(countries => {
