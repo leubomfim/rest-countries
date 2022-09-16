@@ -1,6 +1,6 @@
 <h1 align="center">Frontend mentor - Rest Countries</h1> 
 
-<div align="center"> [Live version] (https://rest-countries-xi-three.vercel.app/) |  <a href="https://www.frontendmentor.io/solutions/advicegenerator-eyVxj5O_pE">Solução</a>  |  <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Desafio</a> <br> Desafio feito pelo https://www.frontendmentor.io/</div>
+<div align="center"> <a href="https://rest-countries-xi-three.vercel.app/">Live Version</a> |  <a href="https://www.frontendmentor.io/solutions/advicegenerator-eyVxj5O_pE">Solução</a>  |  <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">Desafio</a> <br> Desafio feito pelo https://www.frontendmentor.io/</div>
 &nbsp;
 <img width="100%" src="https://user-images.githubusercontent.com/101958997/183263011-2f5f0f15-bc88-47a9-b152-bd2ef7c35abe.png">
 <img src="https://user-images.githubusercontent.com/101958997/183263045-11cfa154-2c99-4290-8b84-a67dfb5af098.png">
