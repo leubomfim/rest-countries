@@ -4,8 +4,8 @@
 &nbsp;
 
 <img width="100%" src="https://user-images.githubusercontent.com/101958997/190808694-9810cc02-3533-420b-9d28-e885f5512df0.png">
-<img width="100%" src="https://user-images.githubusercontent.com/101958997/190808694-9810cc02-3533-420b-9d28-e885f5512df0.png">
 <img src="https://user-images.githubusercontent.com/101958997/190809080-1925fe25-8ee9-4935-beb8-a71b5363a951.png">
+<img width="100%" src="https://user-images.githubusercontent.com/101958997/190810298-78bdb549-2fd3-4a57-9f09-8c1785a68c90.png">
 
 ## The challenge :heartbeat:
 
