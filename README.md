@@ -9,7 +9,7 @@
 
 ## The challenge :heartbeat:
 
-Um excelente projeto para quem está aprendendo a usar APIs de terceiros. Nesse projeto você irá utilizar a <a href="https://restcountries.com/">Rest Countries Api</a><a href="https://restcountries.com/"Rest Countries Api</a> e fazê-lo parecer o mais próximo possível do design.
+Um excelente projeto para quem está aprendendo a usar APIs de terceiros. Nesse projeto você irá utilizar a <a href="https://restcountries.com/">Rest Countries Api</a> e <a href="https://restcountries.com/"Rest Countries Api</a> e fazê-lo parecer o mais próximo possível do design.
 
 Seus usuários devem ser capazes de:
 
