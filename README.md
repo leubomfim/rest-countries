@@ -5,9 +5,6 @@
 
 <img width="100%" src="https://user-images.githubusercontent.com/101958997/190808694-9810cc02-3533-420b-9d28-e885f5512df0.png">
 <img src="https://user-images.githubusercontent.com/101958997/190809080-1925fe25-8ee9-4935-beb8-a71b5363a951.png">
-<img src="https://user-images.githubusercontent.com/101958997/210251526-76e2566f-76ce-48f2-8661-f1e4fc32c374.png">
-<img src="https://user-images.githubusercontent.com/101958997/210251526-76e2566f-76ce-48f2-8661-f1e4fc32c374.png">
-
 
 ## The challenge :heartbeat:
 
